@@ -108,6 +108,99 @@ def update_working_vol_from_news(
 
     return vol
 
+# def generate_signals(assets: List[Dict[str,Any]], S: float, current_tick:int, mat_tick:int, working_vol: float) -> List[Dict[str,Any]]:
+#     T = years_remaining(mat_tick, current_tick)
+#     signals = []
+#     if T <= 0:
+#         return signals
+
+#     # Simple regime flag: tune thresholds to your sim
+#     HIGH_VOL = working_vol >= 0.25
+#     # Dynamic thresholds (stricter when vol is high)
+#     price_thresh = PRICE_THRESH * (1.5 if HIGH_VOL else 1.0)          # contract $
+#     vol_thresh   = VOL_THRESH   * (1.0 if HIGH_VOL else 0.8)
+
+#     # Precompute best-ATM strike for later short-vol bias
+#     option_rows = [r for r in assets if r.get('ticker') and (('C' in r['ticker']) or ('P' in r['ticker']))]
+#     def moneyness_abs(row):
+#         k = parse_strike(row['ticker'])
+#         return abs((k - S) / max(S, 1e-9))
+#     if option_rows:
+#         best_atm_strike = parse_strike(min(option_rows, key=moneyness_abs)['ticker'])
+#     else:
+#         best_atm_strike = None
+
+#     for row in option_rows:
+#         tk = row['ticker']
+#         mid = safe_mid(row)
+#         if math.isnan(mid):
+#             continue
+#         K = parse_strike(tk)
+#         flag = 'c' if 'C' in tk else 'p'
+
+#         # Skip very deep ITM/OTM to avoid noisy IV and nasty gamma when shorting
+#         if abs((K - S) / max(S, 1e-9)) > 0.10:  # 10% moneyness band
+#             continue
+
+#         # Market IV and theo at analyst vol
+#         iv_m = implied_vol_from_market(mid, S, K, RISK_FREE, T, flag)
+#         theo = bs_price_flag(flag, S, K, T, RISK_FREE, working_vol)
+
+#         # Greeks (prefer market IV for greeks if available)
+#         vol_for_greeks = iv_m if not math.isnan(iv_m) else working_vol
+#         d = bs_delta_flag(flag, S, K, T, RISK_FREE, vol_for_greeks)
+#         v = bs_vega_flag(flag, S, K, T, RISK_FREE, vol_for_greeks)
+
+#         edge_per_option   = mid - theo
+#         edge_per_contract = edge_per_option * 100.0
+#         iv_diff = (iv_m - working_vol) if not math.isnan(iv_m) else float('nan')
+
+#         decision = 'NO_DECISION'
+#         # Require both an IV gap and a dollar edge (stricter when vol is high)
+#         if (not math.isnan(iv_diff)) and (abs(iv_diff) >= vol_thresh) and (abs(edge_per_contract) >= price_thresh):
+#             # If implied > forecast -> overpriced -> SELL; else BUY
+#             decision = 'SELL' if iv_diff > 0 else 'BUY'
+
+#             # When shorting vol, prefer ATM to reduce directional surprise
+#             if decision == 'SELL' and best_atm_strike is not None:
+#                 # light nudge: penalize distance from best_atm_strike in the ranking later
+#                 atm_penalty = abs(K - best_atm_strike)
+#             else:
+#                 atm_penalty = 0.0
+#         else:
+#             atm_penalty = 0.0
+
+#         signals.append({
+#             'ticker': tk,
+#             'flag': flag,
+#             'K': K,
+#             'mid': mid,
+#             'iv_market': iv_m,
+#             'bs_theo_at_working_vol': theo,
+#             'delta': d,
+#             'vega': v,
+#             'edge_contract_$': edge_per_contract,
+#             'iv_diff': iv_diff,
+#             'decision': decision,
+#             # regime-aware sizing hint (smaller vega target when shorting high vol)
+#             'target_vega_hint': (120.0 if (decision == 'BUY' and not HIGH_VOL) else
+#                                  90.0  if (decision == 'BUY' and HIGH_VOL) else
+#                                  80.0  if (decision == 'SELL' and HIGH_VOL) else
+#                                  120.0),
+#             'atm_penalty': atm_penalty,
+#             'moneyness_abs': abs((K - S) / max(S, 1e-9))
+#         })
+
+#     # Rank: bigger $ edge first; then prefer smaller atm_penalty; then closer to ATM
+#     signals_sorted = sorted(
+#         signals,
+#         key=lambda x: (x['decision'] == 'NO_DECISION',
+#                        -abs(x['edge_contract_$']),
+#                        x.get('atm_penalty', 0.0),
+#                        x.get('moneyness_abs', 0.0))
+#     )
+#     return signals_sorted
+
 def generate_signals(assets: List[Dict[str,Any]], S: float, current_tick:int, mat_tick:int, working_vol: float) -> List[Dict[str,Any]]:
     T = years_remaining(mat_tick, current_tick)
     signals = []
@@ -219,7 +312,7 @@ def compute_portfolio_delta(assets: List[Dict[str,Any]],
             d = bs_delta_flag(opt_type, spot, K, tau, 0, vol)
 
             # in RIT, 1 option contract = 100 shares
-            total += d * pos * 100.0
+            total += d * pos
     return total
 
 def delta_hedge_if_needed(ledger: Ledger, option_delta: float, current_etf_position: int, session_post_order=post_order) -> Dict[str,Any]:
