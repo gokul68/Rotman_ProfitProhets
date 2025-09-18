@@ -289,9 +289,9 @@ def compute_portfolio_delta(assets: List[Dict[str,Any]],
     Sum over option positions: delta * position * 100
     """
     total = 0.0
+    spot = assets[0].get('last',0)
     for row in assets:
         tk = row.get('ticker','')
-        spot = row.get('last',0)
         if ('C' in tk) or ('P' in tk):
             try:
                 pos = int(row.get('position',0))
@@ -312,7 +312,8 @@ def compute_portfolio_delta(assets: List[Dict[str,Any]],
             d = bs_delta_flag(opt_type, spot, K, tau, 0, vol)
 
             # in RIT, 1 option contract = 100 shares
-            total += d * pos
+            #print(pos, d)
+            total += d * pos * 100
     return total
 
 def delta_hedge_if_needed(ledger: Ledger, option_delta: float, current_etf_position: int, session_post_order=post_order) -> Dict[str,Any]:
@@ -321,10 +322,12 @@ def delta_hedge_if_needed(ledger: Ledger, option_delta: float, current_etf_posit
     If net delta outside DELTA_LIMIT, place hedge (market) to bring net delta close to zero.
     """
     net_delta = option_delta + current_etf_position
+    print(net_delta)
     if abs(net_delta) <= DELTA_LIMIT:
         return None
     target_shares = -option_delta  # desire ETF shares = -option_delta
     shares_to_trade = int(round(target_shares - current_etf_position))
+    print(option_delta, shares_to_trade)
     if shares_to_trade == 0:
         return None
     action = 'BUY' if shares_to_trade > 0 else 'SELL'

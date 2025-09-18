@@ -1,24 +1,235 @@
-timestamp,order,commission
-1758076834.4049506,"{'order_id': 23, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM50C', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 1.76, 'status': 'TRANSACTED'}",1.0
-1758076834.499495,"{'order_id': 24, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM50P', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 1.76, 'status': 'TRANSACTED'}",1.0
-1758076834.5972502,"{'order_id': 25, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM51C', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 1.35, 'status': 'TRANSACTED'}",1.0
-1758076834.6912608,"{'order_id': 26, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM49P', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 1.35, 'status': 'TRANSACTED'}",1.0
-1758076834.7909167,"{'order_id': 27, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM52C', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 1.06, 'status': 'TRANSACTED'}",1.0
-1758076834.892239,"{'order_id': 28, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM48P', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 0.96, 'status': 'TRANSACTED'}",1.0
-1758076835.4987967,"{'order_id': 51, 'period': 1, 'tick': 2, 'trader_id': 'LSTM-2', 'ticker': 'RTM50P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 1.92, 'status': 'TRANSACTED'}",100.0
-1758076835.5943136,"{'order_id': 52, 'period': 1, 'tick': 2, 'trader_id': 'LSTM-2', 'ticker': 'RTM50C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 1.86, 'status': 'TRANSACTED'}",100.0
-1758076839.3033843,"{'order_id': 155, 'period': 1, 'tick': 6, 'trader_id': 'LSTM-2', 'ticker': 'RTM50C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 1.64, 'status': 'TRANSACTED'}",100.0
-1758076839.9291306,"{'order_id': 158, 'period': 1, 'tick': 6, 'trader_id': 'LSTM-2', 'ticker': 'RTM50P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 2.08, 'status': 'TRANSACTED'}",100.0
-1758076869.6369646,"{'order_id': 1141, 'period': 1, 'tick': 36, 'trader_id': 'LSTM-2', 'ticker': 'RTM50C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 1.67, 'status': 'TRANSACTED'}",100.0
-1758076869.7496774,"{'order_id': 1143, 'period': 1, 'tick': 36, 'trader_id': 'LSTM-2', 'ticker': 'RTM50P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 1.26, 'status': 'TRANSACTED'}",100.0
-1758076869.8660989,"{'order_id': 1147, 'period': 1, 'tick': 36, 'trader_id': 'LSTM-2', 'ticker': 'RTM52C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 0.84, 'status': 'TRANSACTED'}",100.0
-1758076869.9584463,"{'order_id': 1150, 'period': 1, 'tick': 36, 'trader_id': 'LSTM-2', 'ticker': 'RTM52P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 2.43, 'status': 'TRANSACTED'}",100.0
-1758076870.0541742,"{'order_id': 1154, 'period': 1, 'tick': 36, 'trader_id': 'LSTM-2', 'ticker': 'RTM51C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 1.29, 'status': 'TRANSACTED'}",100.0
-1758076870.1538227,"{'order_id': 1155, 'period': 1, 'tick': 36, 'trader_id': 'LSTM-2', 'ticker': 'RTM51P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 1.88, 'status': 'TRANSACTED'}",100.0
-1758076870.2489667,"{'order_id': 1157, 'period': 1, 'tick': 36, 'trader_id': 'LSTM-2', 'ticker': 'RTM49C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 2.34, 'status': 'TRANSACTED'}",100.0
-1758076870.3604147,"{'order_id': 1180, 'period': 1, 'tick': 37, 'trader_id': 'LSTM-2', 'ticker': 'RTM49P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 0.82, 'status': 'TRANSACTED'}",100.0
-1758076870.9668257,"{'order_id': 1190, 'period': 1, 'tick': 37, 'trader_id': 'LSTM-2', 'ticker': 'RTM51P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 1.77, 'status': 'TRANSACTED'}",100.0
-1758076871.062222,"{'order_id': 1191, 'period': 1, 'tick': 37, 'trader_id': 'LSTM-2', 'ticker': 'RTM51C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 1.24, 'status': 'TRANSACTED'}",100.0
-1758076871.1790617,"{'order_id': 1192, 'period': 1, 'tick': 37, 'trader_id': 'LSTM-2', 'ticker': 'RTM50C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 1.72, 'status': 'TRANSACTED'}",100.0
-1758076871.283557,"{'order_id': 1215, 'period': 1, 'tick': 38, 'trader_id': 'LSTM-2', 'ticker': 'RTM50P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 1.37, 'status': 'TRANSACTED'}",100.0
-1758076871.3851173,"{'order_id': 1216, 'period': 1, 'tick': 38, 'trader_id': 'LSTM-2', 'ticker': 'RTM49C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 2.28, 'status': 'TRANSACTED'}",100.0
+timestamp,order,commission,penalty,tick
+1758139913.3776019,"{'order_id': 24, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM50C', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 1.68, 'status': 'TRANSACTED'}",1.0,,
+1758139913.4617038,"{'order_id': 30, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM50P', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 1.68, 'status': 'TRANSACTED'}",1.0,,
+1758139913.558687,"{'order_id': 40, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM51C', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 1.2, 'status': 'TRANSACTED'}",1.0,,
+1758139913.6459472,"{'order_id': 49, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM49P', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 0.88, 'status': 'TRANSACTED'}",1.0,,
+1758139913.7360268,"{'order_id': 59, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM52C', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 0.61, 'status': 'TRANSACTED'}",1.0,,
+1758139913.8212042,"{'order_id': 66, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM48P', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 0.85, 'status': 'TRANSACTED'}",1.0,,
+1758139914.5808945,"{'order_id': 126, 'period': 1, 'tick': 2, 'trader_id': 'LSTM-2', 'ticker': 'RTM48P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 0.63, 'status': 'TRANSACTED'}",100.0,,
+1758139914.6643846,"{'order_id': 134, 'period': 1, 'tick': 2, 'trader_id': 'LSTM-2', 'ticker': 'RTM48C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 2.61, 'status': 'TRANSACTED'}",100.0,,
+1758139914.7492316,"{'order_id': 141, 'period': 1, 'tick': 2, 'trader_id': 'LSTM-2', 'ticker': 'RTM52P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 2.72, 'status': 'TRANSACTED'}",100.0,,
+1758139914.8377492,"{'order_id': 147, 'period': 1, 'tick': 2, 'trader_id': 'LSTM-2', 'ticker': 'RTM52C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 0.7, 'status': 'TRANSACTED'}",100.0,,
+1758139914.9219196,"{'order_id': 153, 'period': 1, 'tick': 2, 'trader_id': 'LSTM-2', 'ticker': 'RTM51P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 2.13, 'status': 'TRANSACTED'}",100.0,,
+1758139915.0100024,"{'order_id': 157, 'period': 1, 'tick': 2, 'trader_id': 'LSTM-2', 'ticker': 'RTM51C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 1.11, 'status': 'TRANSACTED'}",100.0,,
+1758139915.1039834,"{'order_id': 182, 'period': 1, 'tick': 3, 'trader_id': 'LSTM-2', 'ticker': 'RTM50P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 1.81, 'status': 'TRANSACTED'}",100.0,,
+1758139915.1952329,"{'order_id': 186, 'period': 1, 'tick': 3, 'trader_id': 'LSTM-2', 'ticker': 'RTM50C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 1.44, 'status': 'TRANSACTED'}",100.0,,
+1758139915.7937531,"{'order_id': 203, 'period': 1, 'tick': 3, 'trader_id': 'LSTM-2', 'ticker': 'RTM48P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 100.0, 'vwap': 0.79, 'status': 'TRANSACTED'}",100.0,,
+1758139916.5393348,"{'order_id': 246, 'period': 1, 'tick': 4, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 8166.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 8166.0, 'vwap': 49.2, 'status': 'TRANSACTED'}",81.66,,
+1758139916.5399044,,,31.660782035863722,3.0
+1758139920.7666895,"{'order_id': 482, 'period': 1, 'tick': 8, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6192.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 6192.0, 'vwap': 50.14, 'status': 'TRANSACTED'}",61.92,,
+1758139920.7670438,,,11.917275428060103,8.0
+1758139925.426192,"{'order_id': 778, 'period': 1, 'tick': 13, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6867.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 6867.0, 'vwap': 51.24, 'status': 'TRANSACTED'}",68.67,,
+1758139925.426418,,,18.6664022183203,12.0
+1758139930.6170332,"{'order_id': 1086, 'period': 1, 'tick': 18, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5275.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 5275.0, 'vwap': 50.43, 'status': 'TRANSACTED'}",52.75,,
+1758139930.6172016,,,2.7495824584187267,18.0
+1758139955.4933805,"{'order_id': 2522, 'period': 1, 'tick': 43, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 8190.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 8190.0, 'vwap': 49.34, 'status': 'TRANSACTED'}",81.9,,
+1758139955.4935572,,,31.8973251875801,43.0
+1758139958.590041,"{'order_id': 2702, 'period': 1, 'tick': 46, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6404.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 6404.0, 'vwap': 48.55, 'status': 'TRANSACTED'}",64.04,,
+1758139958.5902271,,,14.04216645106495,46.0
+1758139970.3798945,"{'order_id': 3418, 'period': 1, 'tick': 58, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 7834.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 7834.0, 'vwap': 49.53, 'status': 'TRANSACTED'}",78.34,,
+1758139970.38033,,,28.340783969200974,58.0
+1758139972.4576483,"{'order_id': 3561, 'period': 1, 'tick': 60, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5378.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5378.0, 'vwap': 50.2, 'status': 'TRANSACTED'}",53.78,,
+1758139972.458004,,,3.782709600179742,60.0
+1758139974.5432177,"{'order_id': 3703, 'period': 1, 'tick': 62, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5255.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 5255.0, 'vwap': 49.57, 'status': 'TRANSACTED'}",52.550000000000004,,
+1758139974.543617,,,2.5542180148209717,62.0
+1758139980.7027116,"{'order_id': 4092, 'period': 1, 'tick': 68, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5172.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5172.0, 'vwap': 50.2, 'status': 'TRANSACTED'}",51.72,,
+1758139980.70294,,,1.7205446439971093,68.0
+1758139987.8695402,"{'order_id': 4534, 'period': 1, 'tick': 75, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5170.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5170.0, 'vwap': 50.84, 'status': 'TRANSACTED'}",51.7,,
+1758139987.869777,,,1.6986130605400558,75.0
+1758139988.9200065,"{'order_id': 4622, 'period': 1, 'tick': 76, 'trader_id': 'LSTM-2', 'ticker': 'RTM51P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 2.68, 'status': 'TRANSACTED'}",100.0,,
+1758139989.0036898,"{'order_id': 4632, 'period': 1, 'tick': 76, 'trader_id': 'LSTM-2', 'ticker': 'RTM51C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 2.29, 'status': 'TRANSACTED'}",100.0,,
+1758139989.0879116,"{'order_id': 4644, 'period': 1, 'tick': 76, 'trader_id': 'LSTM-2', 'ticker': 'RTM48P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 1.4, 'status': 'TRANSACTED'}",100.0,,
+1758139989.173,"{'order_id': 4651, 'period': 1, 'tick': 76, 'trader_id': 'LSTM-2', 'ticker': 'RTM48C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 4.01, 'status': 'TRANSACTED'}",100.0,,
+1758139989.2625997,"{'order_id': 4659, 'period': 1, 'tick': 76, 'trader_id': 'LSTM-2', 'ticker': 'RTM50P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 2.05, 'status': 'TRANSACTED'}",100.0,,
+1758139989.3475327,"{'order_id': 4665, 'period': 1, 'tick': 76, 'trader_id': 'LSTM-2', 'ticker': 'RTM50C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 2.66, 'status': 'TRANSACTED'}",100.0,,
+1758139989.4332595,"{'order_id': 4695, 'period': 1, 'tick': 77, 'trader_id': 'LSTM-2', 'ticker': 'RTM49P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 1.59, 'status': 'TRANSACTED'}",100.0,,
+1758139989.582315,"{'order_id': 4705, 'period': 1, 'tick': 77, 'trader_id': 'LSTM-2', 'ticker': 'RTM49C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 2.98, 'status': 'TRANSACTED'}",100.0,,
+1758139989.6675112,"{'order_id': 4719, 'period': 1, 'tick': 77, 'trader_id': 'LSTM-2', 'ticker': 'RTM52P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 3.4, 'status': 'TRANSACTED'}",100.0,,
+1758139989.751592,"{'order_id': 4736, 'period': 1, 'tick': 77, 'trader_id': 'LSTM-2', 'ticker': 'RTM52C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 1.8, 'status': 'TRANSACTED'}",100.0,,
+1758139989.8420703,"{'order_id': 4750, 'period': 1, 'tick': 77, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 10000.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 10000.0, 'vwap': 50.4, 'status': 'TRANSACTED'}",100.0,,
+1758139989.842297,,,66.30148963614803,76.0
+1758139990.3854556,"{'order_id': 4815, 'period': 1, 'tick': 77, 'trader_id': 'LSTM-2', 'ticker': 'RTM52C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 1.8, 'status': 'TRANSACTED'}",100.0,,
+1758139990.4750981,"{'order_id': 4847, 'period': 1, 'tick': 78, 'trader_id': 'LSTM-2', 'ticker': 'RTM52P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 3.11, 'status': 'TRANSACTED'}",100.0,,
+1758139990.5594258,"{'order_id': 4864, 'period': 1, 'tick': 78, 'trader_id': 'LSTM-2', 'ticker': 'RTM51P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 2.56, 'status': 'TRANSACTED'}",100.0,,
+1758139990.6457334,"{'order_id': 4878, 'period': 1, 'tick': 78, 'trader_id': 'LSTM-2', 'ticker': 'RTM51C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 1.94, 'status': 'TRANSACTED'}",100.0,,
+1758139990.729216,"{'order_id': 4892, 'period': 1, 'tick': 78, 'trader_id': 'LSTM-2', 'ticker': 'RTM48C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 3.79, 'status': 'TRANSACTED'}",100.0,,
+1758139990.8143086,"{'order_id': 4901, 'period': 1, 'tick': 78, 'trader_id': 'LSTM-2', 'ticker': 'RTM48P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 1.41, 'status': 'TRANSACTED'}",100.0,,
+1758139990.900762,"{'order_id': 4908, 'period': 1, 'tick': 78, 'trader_id': 'LSTM-2', 'ticker': 'RTM50P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 2.23, 'status': 'TRANSACTED'}",100.0,,
+1758139990.9859624,"{'order_id': 4915, 'period': 1, 'tick': 78, 'trader_id': 'LSTM-2', 'ticker': 'RTM50C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 2.61, 'status': 'TRANSACTED'}",100.0,,
+1758139991.0710192,"{'order_id': 4924, 'period': 1, 'tick': 78, 'trader_id': 'LSTM-2', 'ticker': 'RTM49P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 1.55, 'status': 'TRANSACTED'}",100.0,,
+1758139993.8919044,"{'order_id': 5171, 'period': 1, 'tick': 81, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5275.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 5275.0, 'vwap': 51.23, 'status': 'TRANSACTED'}",52.75,,
+1758139993.8921196,,,2.751264303069547,80.0
+1758140002.662507,"{'order_id': 5785, 'period': 1, 'tick': 90, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6272.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 6272.0, 'vwap': 51.95, 'status': 'TRANSACTED'}",62.72,,
+1758140002.6627028,,,12.71587222797276,90.0
+1758140008.8526707,"{'order_id': 6153, 'period': 1, 'tick': 96, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5084.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5084.0, 'vwap': 51.31, 'status': 'TRANSACTED'}",50.84,,
+1758140008.8529243,,,0.8406178843170711,96.0
+1758140010.9256968,"{'order_id': 6306, 'period': 1, 'tick': 98, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6144.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 6144.0, 'vwap': 50.66, 'status': 'TRANSACTED'}",61.44,,
+1758140010.9259744,,,11.438393145315167,98.0
+1758140018.6445374,"{'order_id': 6767, 'period': 1, 'tick': 106, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5998.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5998.0, 'vwap': 50.03, 'status': 'TRANSACTED'}",59.980000000000004,,
+1758140018.6447575,,,9.975176600324184,105.0
+1758140021.7654572,"{'order_id': 6954, 'period': 1, 'tick': 109, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5608.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 5608.0, 'vwap': 50.62, 'status': 'TRANSACTED'}",56.08,,
+1758140021.7656214,,,6.081381417146904,109.0
+1758140026.2160194,"{'order_id': 7282, 'period': 1, 'tick': 113, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 10000.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 10000.0, 'vwap': 51.37, 'status': 'TRANSACTED'}",100.0,,
+1758140026.2163224,,,141.73033595402313,110.0
+1758140029.9221673,"{'order_id': 7567, 'period': 1, 'tick': 117, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6461.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 6461.0, 'vwap': 51.23, 'status': 'TRANSACTED'}",64.61,,
+1758140029.9228525,,,14.614205442263993,116.0
+1758140031.175341,"{'order_id': 7683, 'period': 1, 'tick': 118, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5154.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5154.0, 'vwap': 50.93, 'status': 'TRANSACTED'}",51.54,,
+1758140031.1755393,,,1.5372646572596569,117.0
+1758140034.9278405,"{'order_id': 7978, 'period': 1, 'tick': 122, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 7159.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 7159.0, 'vwap': 51.34, 'status': 'TRANSACTED'}",71.59,,
+1758140034.9280977,,,21.590773393460804,121.0
+1758140036.2086983,"{'order_id': 8094, 'period': 1, 'tick': 123, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 9034.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 9034.0, 'vwap': 50.83, 'status': 'TRANSACTED'}",90.34,,
+1758140036.2088845,,,40.341969274283585,122.0
+1758140038.4954011,"{'order_id': 8338, 'period': 1, 'tick': 125, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 10000.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 10000.0, 'vwap': 51.62, 'status': 'TRANSACTED'}",100.0,,
+1758140038.4956214,,,90.94250989614757,125.0
+1758140042.2402458,"{'order_id': 8615, 'period': 1, 'tick': 129, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 7451.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 7451.0, 'vwap': 50.94, 'status': 'TRANSACTED'}",74.51,,
+1758140042.2404811,,,24.514733671661126,128.0
+1758140047.1647627,"{'order_id': 8948, 'period': 1, 'tick': 134, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5585.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 5585.0, 'vwap': 51.26, 'status': 'TRANSACTED'}",55.85,,
+1758140047.164923,,,5.849956468253076,133.0
+1758140049.6356046,"{'order_id': 9111, 'period': 1, 'tick': 136, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5131.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5131.0, 'vwap': 50.98, 'status': 'TRANSACTED'}",51.31,,
+1758140049.6358595,,,1.3076316921914621,136.0
+1758140052.125777,"{'order_id': 9300, 'period': 1, 'tick': 139, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6435.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 6435.0, 'vwap': 51.33, 'status': 'TRANSACTED'}",64.35,,
+1758140052.1260293,,,14.353332561218703,138.0
+1758140054.464107,"{'order_id': 9452, 'period': 1, 'tick': 141, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 8031.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 8031.0, 'vwap': 51.82, 'status': 'TRANSACTED'}",80.31,,
+1758140054.4643493,,,30.311525236489032,141.0
+1758140056.3747237,"{'order_id': 9591, 'period': 1, 'tick': 143, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6461.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 6461.0, 'vwap': 52.31, 'status': 'TRANSACTED'}",64.61,,
+1758140056.3749757,,,14.6073502484223,143.0
+1758140100.1364267,"{'order_id': 12560, 'period': 1, 'tick': 187, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5631.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5631.0, 'vwap': 51.97, 'status': 'TRANSACTED'}",56.31,,
+1758140100.1366653,,,6.313712485963406,187.0
+1758140139.4519486,"{'order_id': 14987, 'period': 1, 'tick': 226, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6428.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 6428.0, 'vwap': 51.46, 'status': 'TRANSACTED'}",64.28,,
+1758140139.4521794,,,14.277047616435958,226.0
+1758140146.6368687,"{'order_id': 15444, 'period': 1, 'tick': 233, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5579.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5579.0, 'vwap': 51.14, 'status': 'TRANSACTED'}",55.79,,
+1758140146.6370375,,,5.785823960457419,233.0
+1758140153.8080823,"{'order_id': 15882, 'period': 1, 'tick': 240, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 9282.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 9282.0, 'vwap': 50.66, 'status': 'TRANSACTED'}",92.82000000000001,,
+1758140153.808274,,,42.82035140934175,240.0
+1758140164.561903,"{'order_id': 16591, 'period': 1, 'tick': 251, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 7734.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 7734.0, 'vwap': 50.27, 'status': 'TRANSACTED'}",77.34,,
+1758140164.5621219,,,27.342214203594285,251.0
+1758140166.6336732,"{'order_id': 16734, 'period': 1, 'tick': 253, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 7036.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 7036.0, 'vwap': 50.62, 'status': 'TRANSACTED'}",70.36,,
+1758140166.6338494,,,20.360899915930933,253.0
+1758140170.7627203,"{'order_id': 17015, 'period': 1, 'tick': 257, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6131.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 6131.0, 'vwap': 50.32, 'status': 'TRANSACTED'}",61.31,,
+1758140170.7629962,,,11.308102324962492,257.0
+1758140179.9747221,"{'order_id': 17563, 'period': 1, 'tick': 266, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5788.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 5788.0, 'vwap': 50.6, 'status': 'TRANSACTED'}",57.88,,
+1758140179.9756513,,,7.878538633033659,266.0
+1758140184.1755776,"{'order_id': 17834, 'period': 1, 'tick': 270, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 7184.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 7184.0, 'vwap': 50.96, 'status': 'TRANSACTED'}",71.84,,
+1758140184.1757522,,,21.8373907558031,270.0
+1758140206.221648,"{'order_id': 19166, 'period': 1, 'tick': 292, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6218.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 6218.0, 'vwap': 50.69, 'status': 'TRANSACTED'}",62.18,,
+1758140206.2218432,,,12.180126508359336,292.0
+1758140320.9874682,"{'order_id': 30, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM50C', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 2.37, 'status': 'TRANSACTED'}",1.0,,
+1758140321.078785,"{'order_id': 36, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM50P', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 2.37, 'status': 'TRANSACTED'}",1.0,,
+1758140321.1640902,"{'order_id': 39, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM51C', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 1.98, 'status': 'TRANSACTED'}",1.0,,
+1758140321.250659,"{'order_id': 43, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM49P', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 1.99, 'status': 'TRANSACTED'}",1.0,,
+1758140321.3364127,"{'order_id': 46, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM52C', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 1.68, 'status': 'TRANSACTED'}",1.0,,
+1758140321.422711,"{'order_id': 53, 'period': 1, 'tick': 1, 'trader_id': 'LSTM-2', 'ticker': 'RTM48P', 'quantity': 1.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 1.0, 'vwap': 1.76, 'status': 'TRANSACTED'}",1.0,,
+1758140322.0177703,"{'order_id': 97, 'period': 1, 'tick': 2, 'trader_id': 'LSTM-2', 'ticker': 'RTM52P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 3.93, 'status': 'TRANSACTED'}",100.0,,
+1758140322.1018927,"{'order_id': 105, 'period': 1, 'tick': 2, 'trader_id': 'LSTM-2', 'ticker': 'RTM52C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 1.82, 'status': 'TRANSACTED'}",100.0,,
+1758140322.1949203,"{'order_id': 110, 'period': 1, 'tick': 2, 'trader_id': 'LSTM-2', 'ticker': 'RTM50C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 2.47, 'status': 'TRANSACTED'}",100.0,,
+1758140322.2835357,"{'order_id': 115, 'period': 1, 'tick': 2, 'trader_id': 'LSTM-2', 'ticker': 'RTM50P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 2.58, 'status': 'TRANSACTED'}",100.0,,
+1758140322.3718739,"{'order_id': 122, 'period': 1, 'tick': 2, 'trader_id': 'LSTM-2', 'ticker': 'RTM51P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 3.14, 'status': 'TRANSACTED'}",100.0,,
+1758140322.458618,"{'order_id': 126, 'period': 1, 'tick': 2, 'trader_id': 'LSTM-2', 'ticker': 'RTM51C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 2.03, 'status': 'TRANSACTED'}",100.0,,
+1758140323.055012,"{'order_id': 170, 'period': 1, 'tick': 3, 'trader_id': 'LSTM-2', 'ticker': 'RTM51P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 3.54, 'status': 'TRANSACTED'}",100.0,,
+1758140323.139495,"{'order_id': 174, 'period': 1, 'tick': 3, 'trader_id': 'LSTM-2', 'ticker': 'RTM51C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 1.96, 'status': 'TRANSACTED'}",100.0,,
+1758140323.2241077,"{'order_id': 178, 'period': 1, 'tick': 3, 'trader_id': 'LSTM-2', 'ticker': 'RTM50P', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 2.8, 'status': 'TRANSACTED'}",100.0,,
+1758140323.3078818,"{'order_id': 181, 'period': 1, 'tick': 3, 'trader_id': 'LSTM-2', 'ticker': 'RTM50C', 'quantity': 100.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 100.0, 'vwap': 2.22, 'status': 'TRANSACTED'}",100.0,,
+1758140323.3966029,"{'order_id': 185, 'period': 1, 'tick': 3, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 9053.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 9053.0, 'vwap': 49.41, 'status': 'TRANSACTED'}",90.53,,
+1758140323.3968134,,,40.5293582488625,3.0
+1758140339.3718865,"{'order_id': 1241, 'period': 1, 'tick': 19, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5455.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 5455.0, 'vwap': 50.15, 'status': 'TRANSACTED'}",54.550000000000004,,
+1758140339.3721313,,,4.549345774335043,19.0
+1758140342.6056426,"{'order_id': 1454, 'period': 1, 'tick': 22, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6277.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 6277.0, 'vwap': 50.9, 'status': 'TRANSACTED'}",62.77,,
+1758140342.6058555,,,12.767646801915499,22.0
+1758140361.6871698,"{'order_id': 2606, 'period': 1, 'tick': 41, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5025.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 5025.0, 'vwap': 51.41, 'status': 'TRANSACTED'}",50.25,,
+1758140361.6874254,,,0.2486327305629584,41.0
+1758140366.147888,"{'order_id': 2895, 'period': 1, 'tick': 46, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 8351.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 8351.0, 'vwap': 50.6, 'status': 'TRANSACTED'}",83.51,,
+1758140366.148171,,,33.51323807724552,45.0
+1758140369.0148234,"{'order_id': 3101, 'period': 1, 'tick': 49, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5326.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 5326.0, 'vwap': 51.12, 'status': 'TRANSACTED'}",53.26,,
+1758140369.016698,,,3.264807591826484,48.0
+1758140373.3409698,"{'order_id': 3375, 'period': 1, 'tick': 53, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6184.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 6184.0, 'vwap': 51.71, 'status': 'TRANSACTED'}",61.84,,
+1758140373.3411415,,,11.841445359966256,53.0
+1758140379.0745022,"{'order_id': 3723, 'period': 1, 'tick': 59, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 10000.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 10000.0, 'vwap': 50.7, 'status': 'TRANSACTED'}",100.0,,
+1758140379.074657,,,54.218767867517094,59.0
+1758140381.156491,"{'order_id': 3847, 'period': 1, 'tick': 61, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6282.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 6282.0, 'vwap': 50.16, 'status': 'TRANSACTED'}",62.82,,
+1758140381.1567097,,,12.822928295556194,61.0
+1758140383.2266464,"{'order_id': 3962, 'period': 1, 'tick': 63, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 9426.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 9426.0, 'vwap': 49.29, 'status': 'TRANSACTED'}",94.26,,
+1758140383.226826,,,44.263067367313525,63.0
+1758140389.3656924,"{'order_id': 4306, 'period': 1, 'tick': 69, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 10000.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 10000.0, 'vwap': 50.53, 'status': 'TRANSACTED'}",100.0,,
+1758140389.365888,,,82.57114962447581,69.0
+1758140392.4530256,"{'order_id': 4514, 'period': 1, 'tick': 72, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6437.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 6437.0, 'vwap': 50.82, 'status': 'TRANSACTED'}",64.37,,
+1758140392.4532766,,,14.368628896307483,72.0
+1758140394.521837,"{'order_id': 4641, 'period': 1, 'tick': 74, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5341.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5341.0, 'vwap': 50.34, 'status': 'TRANSACTED'}",53.410000000000004,,
+1758140394.5220692,,,3.4132509499671504,74.0
+1758140407.8849106,"{'order_id': 5488, 'period': 1, 'tick': 87, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 8362.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 8362.0, 'vwap': 51.09, 'status': 'TRANSACTED'}",83.62,,
+1758140407.8859916,,,33.61915377620448,87.0
+1758140409.2793102,"{'order_id': 5596, 'period': 1, 'tick': 89, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5119.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5119.0, 'vwap': 50.63, 'status': 'TRANSACTED'}",51.19,,
+1758140409.2795894,,,1.1941704943668083,88.0
+1758140419.2921426,"{'order_id': 6178, 'period': 1, 'tick': 99, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 7246.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 7246.0, 'vwap': 51.28, 'status': 'TRANSACTED'}",72.46000000000001,,
+1758140419.292328,,,22.456433192493297,99.0
+1758140423.397919,"{'order_id': 6454, 'period': 1, 'tick': 103, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 7980.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 7980.0, 'vwap': 51.98, 'status': 'TRANSACTED'}",79.8,,
+1758140423.3980756,,,29.797944561880612,103.0
+1758140429.5428529,"{'order_id': 6844, 'period': 1, 'tick': 109, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5522.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 5522.0, 'vwap': 52.49, 'status': 'TRANSACTED'}",55.22,,
+1758140429.5430572,,,5.217362703750405,109.0
+1758140434.6664133,"{'order_id': 7142, 'period': 1, 'tick': 114, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5532.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5532.0, 'vwap': 51.95, 'status': 'TRANSACTED'}",55.32,,
+1758140434.66662,,,5.315962681244128,114.0
+1758140448.452037,"{'order_id': 8006, 'period': 1, 'tick': 128, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6246.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 6246.0, 'vwap': 52.49, 'status': 'TRANSACTED'}",62.46,,
+1758140448.4522948,,,12.46089551520192,128.0
+1758140462.742575,"{'order_id': 9015, 'period': 1, 'tick': 142, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 7585.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 7585.0, 'vwap': 51.76, 'status': 'TRANSACTED'}",75.85000000000001,,
+1758140462.7427328,,,25.85067260941096,142.0
+1758140463.7952287,"{'order_id': 9099, 'period': 1, 'tick': 143, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6008.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 6008.0, 'vwap': 52.29, 'status': 'TRANSACTED'}",60.08,,
+1758140463.7955563,,,10.081260865638033,143.0
+1758140464.8486867,"{'order_id': 9178, 'period': 1, 'tick': 144, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5215.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5215.0, 'vwap': 51.8, 'status': 'TRANSACTED'}",52.15,,
+1758140464.848902,,,2.1480795832415245,144.0
+1758140470.9974117,"{'order_id': 9664, 'period': 1, 'tick': 150, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 7351.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 7351.0, 'vwap': 52.43, 'status': 'TRANSACTED'}",73.51,,
+1758140470.9978802,,,23.514869517803927,150.0
+1758140483.7896636,"{'order_id': 10621, 'period': 1, 'tick': 163, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6128.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 6128.0, 'vwap': 51.85, 'status': 'TRANSACTED'}",61.28,,
+1758140483.7898817,,,11.276279861664044,163.0
+1758140490.9480062,"{'order_id': 11146, 'period': 1, 'tick': 170, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5026.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5026.0, 'vwap': 51.44, 'status': 'TRANSACTED'}",50.26,,
+1758140490.948249,,,0.26373237203275496,170.0
+1758140493.0177968,"{'order_id': 11305, 'period': 1, 'tick': 172, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 7002.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 7002.0, 'vwap': 50.96, 'status': 'TRANSACTED'}",70.02,,
+1758140493.017973,,,20.019567928612926,172.0
+1758140494.0712514,"{'order_id': 11376, 'period': 1, 'tick': 173, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5516.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5516.0, 'vwap': 50.56, 'status': 'TRANSACTED'}",55.160000000000004,,
+1758140494.0718555,,,5.155226970908315,173.0
+1758140502.8520577,"{'order_id': 12000, 'period': 1, 'tick': 182, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 7649.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 7649.0, 'vwap': 51.12, 'status': 'TRANSACTED'}",76.49,,
+1758140502.8523085,,,26.492671064235356,182.0
+1758140506.954559,"{'order_id': 12283, 'period': 1, 'tick': 186, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5562.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5562.0, 'vwap': 50.73, 'status': 'TRANSACTED'}",55.620000000000005,,
+1758140506.9548373,,,5.6152430620878935,186.0
+1758140508.0083869,"{'order_id': 12366, 'period': 1, 'tick': 187, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 7197.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 7197.0, 'vwap': 50.51, 'status': 'TRANSACTED'}",71.97,,
+1758140508.0085897,,,21.97356688592354,187.0
+1758140509.0599263,"{'order_id': 12436, 'period': 1, 'tick': 188, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5784.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 5784.0, 'vwap': 50.74, 'status': 'TRANSACTED'}",57.84,,
+1758140509.060182,,,7.838089990495692,188.0
+1758140510.112339,"{'order_id': 12550, 'period': 1, 'tick': 189, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6124.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 6124.0, 'vwap': 50.52, 'status': 'TRANSACTED'}",61.24,,
+1758140510.1125624,,,11.24150117566498,189.0
+1758140512.1789484,"{'order_id': 12740, 'period': 1, 'tick': 191, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 10000.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 10000.0, 'vwap': 50.09, 'status': 'TRANSACTED'}",100.0,,
+1758140512.179207,,,77.15748777013799,191.0
+1758140513.2332609,"{'order_id': 12832, 'period': 1, 'tick': 192, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6567.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 6567.0, 'vwap': 49.93, 'status': 'TRANSACTED'}",65.67,,
+1758140513.233622,,,15.672160995728882,192.0
+1758140513.7812438,"{'order_id': 12898, 'period': 1, 'tick': 193, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 10000.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 10000.0, 'vwap': 50.54, 'status': 'TRANSACTED'}",100.0,,
+1758140513.7814448,,,118.00515318434555,193.0
+1758140514.3241134,"{'order_id': 12935, 'period': 1, 'tick': 193, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6493.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 6493.0, 'vwap': 50.54, 'status': 'TRANSACTED'}",64.93,,
+1758140514.324721,,,14.925476753612175,193.0
+1758140515.8889737,"{'order_id': 13104, 'period': 1, 'tick': 195, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 8361.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 8361.0, 'vwap': 50.8, 'status': 'TRANSACTED'}",83.61,,
+1758140515.8892252,,,33.60869566924812,195.0
+1758140516.9391432,"{'order_id': 13186, 'period': 1, 'tick': 196, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 10000.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 10000.0, 'vwap': 51.15, 'status': 'TRANSACTED'}",100.0,,
+1758140516.9393923,,,59.429905946850994,196.0
+1758140519.007059,"{'order_id': 13389, 'period': 1, 'tick': 198, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 8738.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 8738.0, 'vwap': 50.81, 'status': 'TRANSACTED'}",87.38,,
+1758140519.00727,,,37.376546724713265,198.0
+1758140521.0748286,"{'order_id': 13598, 'period': 1, 'tick': 200, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 8919.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 8919.0, 'vwap': 51.12, 'status': 'TRANSACTED'}",89.19,,
+1758140521.0750062,,,39.19422057606944,200.0
+1758140522.1259325,"{'order_id': 13701, 'period': 1, 'tick': 201, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 7504.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 7504.0, 'vwap': 51.38, 'status': 'TRANSACTED'}",75.04,,
+1758140522.1261146,,,25.04490427925266,201.0
+1758140524.1925106,"{'order_id': 13915, 'period': 1, 'tick': 203, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6126.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 6126.0, 'vwap': 51.61, 'status': 'TRANSACTED'}",61.26,,
+1758140524.1927829,,,11.262030392648667,203.0
+1758140530.896242,"{'order_id': 14562, 'period': 1, 'tick': 210, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5405.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5405.0, 'vwap': 51.38, 'status': 'TRANSACTED'}",54.050000000000004,,
+1758140530.896462,,,4.047708539061387,210.0
+1758140536.0362732,"{'order_id': 15005, 'period': 1, 'tick': 215, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 8830.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 8830.0, 'vwap': 51.72, 'status': 'TRANSACTED'}",88.3,,
+1758140536.036491,,,38.30143697585641,215.0
+1758140537.088203,"{'order_id': 15098, 'period': 1, 'tick': 216, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5123.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 5123.0, 'vwap': 51.95, 'status': 'TRANSACTED'}",51.230000000000004,,
+1758140537.0883474,,,1.2306322571264172,216.0
+1758140561.3753183,"{'order_id': 16972, 'period': 1, 'tick': 240, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5929.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 5929.0, 'vwap': 52.17, 'status': 'TRANSACTED'}",59.29,,
+1758140561.3754747,,,9.294399228271141,240.0
+1758140581.3868659,"{'order_id': 18086, 'period': 1, 'tick': 260, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5725.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 5725.0, 'vwap': 52.46, 'status': 'TRANSACTED'}",57.25,,
+1758140581.387087,,,7.253508276107168,260.0
+1758140589.5914207,"{'order_id': 18536, 'period': 1, 'tick': 268, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5015.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 5015.0, 'vwap': 52.05, 'status': 'TRANSACTED'}",50.15,,
+1758140589.59165,,,0.14652432642280475,268.0
+1758140592.1896544,"{'order_id': 18702, 'period': 1, 'tick': 271, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6349.0, 'price': None, 'type': 'MARKET', 'action': 'SELL', 'quantity_filled': 6349.0, 'vwap': 51.75, 'status': 'TRANSACTED'}",63.49,,
+1758140592.1898096,,,13.48745705474452,271.0
+1758140596.2988248,"{'order_id': 18941, 'period': 1, 'tick': 275, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 6594.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 6594.0, 'vwap': 52.07, 'status': 'TRANSACTED'}",65.94,,
+1758140596.299064,,,15.935249612755216,275.0
+1758140614.6682339,"{'order_id': 19947, 'period': 1, 'tick': 293, 'trader_id': 'LSTM-2', 'ticker': 'RTM', 'quantity': 5096.0, 'price': None, 'type': 'MARKET', 'action': 'BUY', 'quantity_filled': 5096.0, 'vwap': 52.21, 'status': 'TRANSACTED'}",50.96,,
+1758140614.6683788,,,0.9597448747795716,293.0
